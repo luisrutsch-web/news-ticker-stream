@@ -4,7 +4,6 @@
 name: Update Ticker Headlines
 
 on:
-  pull_request:
   schedule:
     - cron: "*/20 * * * *"   # runs every 20 minutes
   workflow_dispatch:          # lets you also trigger it manually from GitHub
